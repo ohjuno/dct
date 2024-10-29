@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit-core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "dct"
+description = "Implementation of 'Discrete Cosine Transform', in PyTorch"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+keywords = [
+    "Deep Learning",
+    "Discrete Cosine Transform",
+    "PyTorch",
+]
+authors = [{name = "Juno Oh", email = "juno.demie.oh@gmail.com"}]
+maintainers = [{name = "Juno Oh", email = "juno.demie.oh@gmail.com"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+dynamic = ["version"]
